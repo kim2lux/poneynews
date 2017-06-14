@@ -1,0 +1,25 @@
+li {
+	display: inline;
+        list-style: none; /* pour enlever les puces sur IE7 */
+	margin: 10px;
+}
+
+li a {
+	display: inline-block;
+	width: 100px;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	background: #999;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+	margin-right: 20px;
+	vertical-align: top;
+	text-align: right;
+}
+
+#elem {display:inline-block;margin-right:1px; width:50;} 

@@ -1,0 +1,38 @@
+{% extends "bases.html" %}
+{% load static %}
+{% block title %} New Gathred ! {% endblock %}
+<script type='text/javascript'>
+var markers = {{ articledata|safe }};
+</script>
+{% block content %}
+<div class="container">
+<form action="{% url "refresh" %}" method="post">
+	{% csrf_token %}
+	{{ form.as_p }}
+	<input  type="submit" class="btn btn-primary" value="Search" />
+</form>
+</div>
+<div class="container">
+<form action="{% url "refresh" %}" method="post">
+	{% csrf_token %}
+	<input  type="submit" class="btn btn-primary" value="Refresh" />
+</form>
+</div>
+ <div class="alert alert-success">
+<strong> Keyword: </strong> <a href="#" class="alert-link"> {{ query }} </a>
+
+{% for key in keywords %}
+<div id="elem">
+<form action="{% url "refresh" %}" method="post">
+ {% csrf_token %} 
+ <input  name="query" type="submit" value="{{ key }}" /> 
+</form>
+</div>
+{% endfor %}
+
+</div>
+
+
+<img src="http://static01.nytimes.com/packages/images/developer/logos/poweredby_nytimes_200a.png"> <br/>
+
+{% endblock %}
