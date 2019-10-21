@@ -23,7 +23,7 @@ jieba==0.35
 kombu==3.0.37
 lxml==3.3.5
 newspaper==0.1.0.7
-nltk==2.0.5
+nltk==3.4.5
 packaging==16.8
 paramiko==2.1.2
 Pillow==2.5.1
