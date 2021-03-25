@@ -35,7 +35,7 @@ pyparsing==2.2.0
 pysftp==0.2.9
 python-dateutil==2.4.0
 pytz==2017.2
-PyYAML==3.11
+PyYAML==5.4
 rabbitmq==0.1.0
 redcap-cli==0.1.0
 redi==0.15.4
