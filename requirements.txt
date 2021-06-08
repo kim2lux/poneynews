@@ -26,7 +26,7 @@ newspaper==0.1.0.7
 nltk==2.0.5
 packaging==16.8
 paramiko==2.1.2
-Pillow==2.5.1
+Pillow==8.2.0
 pyasn1==0.2.3
 PyCap==1.0.2
 pycparser==2.17
