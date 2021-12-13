@@ -21,7 +21,7 @@ idna==2.5
 ipaddress==1.0.18
 jieba==0.35
 kombu==3.0.37
-lxml==3.3.5
+lxml==4.6.5
 newspaper==0.1.0.7
 nltk==2.0.5
 packaging==16.8
